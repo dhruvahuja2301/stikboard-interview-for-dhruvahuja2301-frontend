@@ -4,7 +4,7 @@ import { UserContext } from '../App';
 import Dashboard from './Dashboard';
 
 const Home = () => {
-    const [user, setUser] = useContext(UserContext);
+    const [user] = useContext(UserContext);
     if(!user.token) {
         return <Redirect to="/login" noThrow />
     } 

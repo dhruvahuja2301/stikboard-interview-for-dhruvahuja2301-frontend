@@ -1,6 +1,6 @@
 // import axios from './axios';
 import './App.css'
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import Home from './components/Home';
 import Navigation from './components/Navigation';
 import Login from './components/Login';
