@@ -12,7 +12,7 @@ const Login = () => {
     const handleSubmit = async (e) => {
         e.preventDefault();
         // 2 await because fetch await gives a response which is a promise to be converted to json
-        const result = await (await fetch('http://localhost:4000/login',{
+        const result = await (await fetch('https://dhruv-mern-authorization.herokuapp.com/login',{
             method:'POST',
             credentials: 'include',
             headers: {
