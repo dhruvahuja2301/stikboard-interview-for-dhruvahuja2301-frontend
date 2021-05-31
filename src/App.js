@@ -11,12 +11,6 @@ export const UserContext = React.createContext([]);
 
 function App() {
   const [user, setUser] = useState({});
-  useEffect(()=>{
-    const tokendata = localStorage.getItem("usertoken");
-    if(tokendata!=="{}"&&tokendata!==null){
-      setUser(JSON.parse(tokendata));
-    }
-  });
 
   const LogoutCallback = () => {
     setUser({});
