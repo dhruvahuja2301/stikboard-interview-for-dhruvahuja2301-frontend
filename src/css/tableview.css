@@ -1,0 +1,25 @@
+.x {
+    font-family: 'Dancing Script', cursive;
+    font-weight: 700;
+}
+.s {
+    font-family: 'kanit', cursive;
+    font-weight: 700;
+}
+
+table{
+    text-align: center;
+    width: auto;
+    border: 1px grey solid;
+}
+thead tr th{
+    background-color: #A0A0A0;
+    padding: .5rem 0;
+}
+tbody tr td{
+    width: 10%;
+    padding: .5rem 0;
+}
+.w-10 {
+    width: 5% !important;
+}
